@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vyhledávač obrázků</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1>Vyhledávač obrázků</h1>
+  <input type="text" id="searchInput" placeholder="Zadejte klíčové slovo">
+  <button id="searchButton">Hledat</button>
+
+  <div class="gallery" id="gallery"></div>
+  <div class="pagination" id="pagination"></div>
+  <button id="loadMore" style="display: none;">Načíst další</button>
+
+  
+  <div id="modal">
+    <span id="closeModal">&times;</span>
+    <img id="modalImage" src="" alt="">
+    <div id="modalCaption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
